@@ -1,7 +1,7 @@
 --dataset=cifar10.32
 --arch=dcgan.32
 --loss=bce
---total_steps=200000
+--total_steps=150000
 --lr_decay_start=200000
 --batch_size_D=64
 --batch_size_G=128
@@ -21,5 +21,5 @@
 --eval_step=5000
 --save_step=20000
 --num_images=50000
---fid_stats=./stats/cifar10.train.npz
+--fid_stats=./data/cifar10.train.npz
 --logdir=./logs/GN-GAN_CIFAR10_CNN_0
